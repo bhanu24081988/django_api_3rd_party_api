@@ -1,0 +1,58 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django specific
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# Python environment configuration
+*.env
+*.flaskenv
+*.python-version
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+*.coveragerc
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# Local settings
+local_settings.py
+
+# Ignore sensitive files
+secrets.json
+*.key
+*.pem
+
+# Any other file that may contain sensitive information
